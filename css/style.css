@@ -55,7 +55,6 @@ header > nav > ul > li {
 header > nav > ul > li:hover{
   color: var(--secondary-color);
   /* padding-top: 5px; */
-  border-top: solid 2px var(--secondary-color);
   /* padding-top: 4px; */
 }
 
@@ -70,7 +69,9 @@ header > nav > ul > li > a:hover {
   align-items: center;
   /* border-top: solid 1px var(--secondary-color); */
   transition: all 2s;
-  padding-top: 2px;
+  padding-top: 50px;
+  border-top: solid 2px var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 #logo {
